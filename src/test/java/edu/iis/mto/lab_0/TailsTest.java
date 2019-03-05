@@ -28,7 +28,7 @@ public class TailsTest {
         assertThat(tails, empty());
     }
 
-/*
+
     @Test
     public void tailsShouldReturnListOfStringsOfSizeEqualsToInputStringLengthPlusOne() {
         tails = tailsGenerator.tails(HELLO);
@@ -45,5 +45,5 @@ public class TailsTest {
     public void tailsShouldReturnEmptyStringAsLastElement() {
         tails = tailsGenerator.tails(HELLO);
         assertThat(tails.get(tails.size() - 1), equalTo(""));
-    } */
+    }
 }

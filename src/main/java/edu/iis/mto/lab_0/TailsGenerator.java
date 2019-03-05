@@ -14,7 +14,10 @@ public class TailsGenerator {
             return new ArrayList<>();
         }
 
-        return new ArrayList<>(value.length());
+        for(int i = 0; i < value.length() + 1; i++) {
+            lista.add(value.substring(i));
+        }
+        return lista;
     }
 
 }
